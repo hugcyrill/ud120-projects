@@ -9,7 +9,7 @@
     Sara has label 0
     Chris has label 1
 """
-    
+  
 import sys
 from time import time
 sys.path.append("../tools/")
@@ -21,11 +21,11 @@ from email_preprocess import preprocess
 ### labels_train and labels_test are the corresponding item labels
 features_train, features_test, labels_train, labels_test = preprocess()
 
-
-
-
 #########################################################
 ### your code goes here ###
+
+""" compute the accuracy of your Naive Bayes classifier """
+### import the sklearn module for GaussianNB
 
 
 #########################################################
